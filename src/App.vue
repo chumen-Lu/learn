@@ -1,9 +1,11 @@
 <template>
-  <div>tese</div>
+  <div>
+    <!-- 项目的骨架 -->
+    <h1>我的项目</h1>
+    <router-view></router-view>
+  </div>
 </template>
 
-<script>
-export default {}
+<script setup>
+// 入口的组件
 </script>
-
-<style lang="scss" scoped></style>
